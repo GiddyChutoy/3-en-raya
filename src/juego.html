@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 en raya</title>
+    <link rel="stylesheet" href="..\css\styles.css">
+    <script src="..\js\magia.js"></script>
+</head>
+<body>
+    <div class="menu">
+        <input type="text" name="jugador1" id="jugador1" placeholder="jugador1">
+        <br><br>
+        <input type="text" name="jugador2" id="jugador2" placeholder="jugador2">
+        <br><br>
+        <input type="button" value="Iniciar" onclick="empezar()"> 
+        <br><br>      
+    </div>
+    <div id="juego">
+        <table>
+            <tr>
+                <td id="0" onclick="marcar(0)"></td>
+                <td id="1" onclick="marcar(1)"></td>
+                <td id="2" onclick="marcar(2)"></td>
+            </tr>
+
+            <tr>
+                <td id="3" onclick="marcar(3)"></td>
+                <td id="4" onclick="marcar(4)"></td>
+                <td id="5" onclick="marcar(5)"></td>
+            </tr>
+
+            <tr>
+                <td id="6" onclick="marcar(6)"></td>
+                <td id="7" onclick="marcar(7)"></td>
+                <td id="8" onclick="marcar(8)"></td>
+            </tr>
+        </table>
+    </div>
+    <br><br>
+    <div class="menu">
+        <input type="button" value="Reiniciar" onclick="reiniciar()">
+    </div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+table{
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+
+td{
+    border: 1px solid black;
+}
+
+#juego{
+    margin: auto;
+    
+}
+
+.menu{
+    text-align: center;
+    overflow: hidden;
+}
